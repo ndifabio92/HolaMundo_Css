@@ -1,7 +1,7 @@
-* {
+/* * {
     font-size: 24px;
     color: black;
-}
+} */
 
 #titulo {
     color: tomato;
@@ -68,4 +68,69 @@ div h2, div h3 {
     text-align: center;
     text-decoration: overline;
     text-shadow: 5px 5px 5px blue;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color:red;
+}
+
+ul {
+    background-color: cyan;
+    list-style-type: none;
+    /* padding-left: 0; */
+    /* list-style-position: inside; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px #eee;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 300px;
+    background-color: #f00;
+}
+
+.inline {
+    display: inline;
+}
+
+#position {
+    position: sticky;
+    left: 20px;
 }
